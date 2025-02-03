@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header-content, .header-sub-bar, .header-bar {
+    overflow-y: hidden;
+    max-height: 100vh; /* Garante que não ultrapasse a altura da tela */
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #003B95;
+}
+
+.header-root {
+    width: 100%;
+    max-width: 1100px;
+    height: 124px;
+    padding: 8px 0 0 0;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1100px;
+    height: 114px;
+    padding: 0 16px;
+}
+
+/* header-bar */
+
+.header-bar {
+    width: 100%;
+    max-width: 1100px;
+    height: 48px;
+    padding: 4px 16px 8px;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+}
+
+/* Header-sub-bar */
+
+.header-sub-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    height: 44px;
+    padding: 13px 0;
+    margin-top: 10px;
+}
+
+.header-slogan {
+    width: 100%;
+    max-width: 1100px;
+    height: 98px;
+    padding: 64px 5px 78px;
+    box-sizing: content-box;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.header-slogan h1 {
+    font-size: 48px;
+}
+
+.header-slogan h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.booking-logo {
+    width: 475px;
+    padding: 8px 16px 8px 0;
+}
+
+.img-booking-logo:hover {
+    cursor: pointer;
+}
+
+.links-header-bar-direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilização brl */
+
+.div-currency {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    box-sizing: content-box;
+    margin-right: 10px;
+}
+
+.currency-span {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: content-box;
+}
+
+.div-currency:hover {
+    cursor: pointer;
+    background-color: #3461a36c;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+/* Estilização bandeira */
+
+.div-country {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    box-sizing: content-box;
+    margin-right: 10px;
+}
+
+.img-country-a {
+    width: 24px;
+    height: 24px;
+}
+
+.div-country:hover {
+    cursor: pointer;
+    background-color: #3461a36c;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+/* Estilização question */
+
+.div-question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    box-sizing: content-box;
+    margin-right: 10px;
+}
+
+.div-question:hover {
+    cursor: pointer;
+    background-color: #3461a36c;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+/* Anuncie sua propriedade */
+
+.anuncie-span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.div-anuncie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding: 10px;
+    /* max-width: 154px; */
+    box-sizing: content-box;
+}
+
+.div-anuncie:hover {
+    cursor: pointer;
+    background-color: #3461a36c;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+
+/* Button cadastre-se */
+
+.div-button-cadastre-se {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.button-cadastre-se {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 28px;
+    padding: 4px 12px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+.button-cadastre-se span {
+    color: #0055b6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button-cadastre-se:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+/* Button login */
+
+.div-button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 28px;
+    padding: 4px 12px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+.button-login span {
+    color: #0055b6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button-login:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+/* header-sub-bar */
+
+.header-sub-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Button hospedagem */
+
+.div-button-hospedagem {
+    display: flex;
+    align-items: center;
+    width: 154px;
+    margin-right: 10px;
+}
+
+.div-button-hospedagem:hover {
+    cursor: pointer;
+}
+
+.button-hospedagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #1A4FA0;
+}
+
+.div-button-hospedagem a {
+    color: white
+}
+
+.button-hospedagem img {
+    margin-right: 10px;
+    width: 25px;
+}
+
+/* Voos */
+
+.div-button-voos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 16px;
+}
+
+.button-voos {
+    display: flex;
+    align-items: center;
+}
+
+.div-voos {
+    width: 30px;   
+    margin-right: 10px;
+}
+
+.div-voos-plane {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.div-voos-car {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.div-voos-atracao {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.button-voos-taxi {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.div-voos-taxi {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.button-voos {
+    font-size: 14px;
+}
+
+.button-voos span {
+    color: white
+}
+
+.div-button-voos:hover {
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #1A4FA0;
+}
+
+.div-voos:hover {
+    background-color: transparent;
+}
+
